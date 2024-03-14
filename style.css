@@ -1,7 +1,7 @@
-body{
-
+*{
+    margin: 0px;
+    box-sizing: border-box;
 }
-
 /* .Primeira{
     margin: 2%;
     width: 65%;
@@ -14,12 +14,28 @@ body{
 /* está errado:( */
 .container {
     display: flex; /* Ativa o layout flexível */
+    border-radius: 50px;
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+    background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+    width: 60%;
 }
 
 .sub-div {
-    flex: 1; /* Faz com que as sub-divs ocupem o espaço disponível igualmente */
-    background-color: lightgray; /* Cor de fundo apenas para visualização */
     padding: 10px; /* Espaçamento interno */
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+}
+
+.infoSeta{
+    display: flex;
+    margin: 5px;
+}
+
+.button{
+    margin: 5px;
+
+}
+
+img{
+    width: 200px;
+    height: auto;
 }
 
