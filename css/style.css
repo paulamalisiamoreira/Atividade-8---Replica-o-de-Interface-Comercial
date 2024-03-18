@@ -3,10 +3,268 @@
     src: url('../Atividade-8---Replica-o-de-Interface-Comercial-2/fonte/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
   }
 
-*{
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
 }
+
+header {
+    background-color: rgb(185, 188, 190);
+    padding-bottom: 3px;
+}
+
+
+#yellowLine{
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#abinhaHeader {
+    display: flex;
+    margin-right: 15px;
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+}
+
+#save {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#saveButton {
+    margin-right: 5px;
+}
+
+
+#Head {
+    display: flex;
+    border-bottom: solid 2px rgb(73, 137, 196);
+    padding-bottom: 15px;
+}
+
+#att {
+    margin-right: 400px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.box-nav-header {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(43, 43, 248);
+}
+
+.box-nav-header > p {
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.box-nav-header > .subtitulo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.box-nav-header > h3 {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.container-nav {
+    border: solid 4px #acacac;
+    height: 100vh;
+    width: 35%; 
+    float: left; 
+    overflow-y: auto; 
+}
+
+.nav-menu {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    background-color: #c5c4c4;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #c7c7c7;
+    padding: 7px;
+    border: 1px solid #000; 
+}
+
+td {
+    padding: 7px;
+    border: 1px solid #000; 
+}
+
+th:first-child,
+td:first-child {
+    width: 10%; 
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%; 
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 60%;
+}
+
+.m-btn {
+    margin-left: 8px;
+}
+
+.btn {
+    border-radius: none;
+    padding-right: 7px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.nada{
+    background-color: #c7c7c7;
+}
+
+#Bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 2px; 
+    gap: 5px;
+}
+
+.inputs h3 {
+    margin-bottom: 10px; 
+}
+
+.inputs input {
+    width: 200px; 
+    height: 18px;
+    padding: 5px; 
+    margin-bottom: 3px;
+}
+
+
+
+
+#overviewHead {
+    margin-top: 50px;
+    /* margin-left: 75px; */
+}
+
+.display-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+#overTopHead {
+    display: flex;
+    gap: 30px;
+    /* margin-left: 75px; */
+    border-bottom: solid 3px rgb(111, 169, 223);
+    padding-bottom: 15px;
+    padding-left: 75px;
+    background-color: #e0dfdf;
+    padding-top: 20px;
+}
+
+#overH2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#overTopHead h3 {
+    font-size: 18px;
+}
+
+#overBotHead {
+    display: flex;
+    gap: 10px;
+    background-color: #d6d6d6;
+}
+
+#overBotHead button {
+    width: auto;
+    height: 25px;
+}
+
+#pageM {
+    margin-left: 15px;
+}
+
+#configureButton {
+    margin-left: 775px;
+}
+
+#attributesBot {
+    margin-top: 75px;
+}
+
+.keijo {
+    color: orange;
+}
+
+#up::before {
+    transform: rotate(270deg);
+}
+
+#left::before {
+    transform: rotate(180deg);
+}
+
+#down::before {
+    transform: rotate(90deg);
+}
+
+.cancel {
+    color: red;
+    font-size: 18px;
+}
+
+.pencil {
+    color: #7979f0;
+}
+
+.save1 {
+    color: #7979f0;
+}
+
+.trash {
+    color: rgb(50, 106, 179);
+}
+
+
+
+
 
 /* está errado:( */
 .container1 {
@@ -219,9 +477,3 @@ align-items: center;
 color: #163599;
 
 }
-
-
-
-
-
-

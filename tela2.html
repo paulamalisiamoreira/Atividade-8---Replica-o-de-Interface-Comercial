@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>velho</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FOWARDING_ORDER"</h1>
+            <img src="./imagens/Captura de tela 2024-03-17 195025.png" alt="yellow-line" id="yellowLine">
+        </div>
+
+
+        <div id="abinhaHeader">
+            <button id="saveButton"><img src="./imagens/save.png" alt="save" id="save">Save</button> 
+            <button><i class="bi bi-x cancel"></i>Cancel</button> 
+            <button><i class="bi bi-pencil-fill pencil"></i>Edit</button> 
+            <button><i class="bi bi-floppy2 save1"></i>Save Draft</button> 
+            <button>Load Draft</button> 
+            <button><i class="bi bi-arrow-clockwise"></i></button>
+            <button><i class="bi bi-arrow-return-left"></i>Undo</button>
+            <button><i class="bi bi-arrow-return-right"></i>Redo</button>
+            <button>Check</button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="up"></i></button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="left"></i></button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="down"></i></button>
+            <button>Additional Functions</button>
+        </div>
+    </header>
+
+    <aside>
+        <nav class="container-nav">
+            <div class="box-nav-header">
+                <h2 class="subtitulo">Navigation</h2> <h3>Repositories</h3> <p>Pasta</p>
+            </div>
+            <div class="nav-menu">
+                <button class="btn"><i class="bi bi-file-earmark-plus"></i>New</button>
+                <button class="btn"><i class="bi bi-trash-fill trash"></i></button> 
+                <button class="btn"><i class="bi bi-file-earmark"></i></button>
+                <button class="btn">Up</button>
+                <button class="btn">Down</button>
+                <button class="btn m-btn"><i class="bi bi-person-badge"></i></button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                      <th class="nada"></th>
+                      <th>Page Type</th>
+                      <th>Page Id</th>
+                      <th>Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Main Page</td>
+                    <td>MAIN</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Main Page</td>
+                    <td>MAIN</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Main Page</td>
+                    <td>MAIN_FAST_EI</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>ADDRESS_DE</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>ACT_LIST</td>
+                    <td>$OTR:/BOFU</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>NOTE_HLP</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>SEC_FILING_R</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>SEC_FILING_C</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>REPACT_NOT</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                  <tr>
+                    <td class="nada"></td>
+                    <td>Dialog Box</td>
+                    <td>REPACT_ATF</td>
+                    <td>$OTR:/SCMT</td>
+                  </tr>
+                </tbody>
+              </table>
+        </nav>
+    </aside>
+
+    <div class="display-main">
+        <section id="overview"> 
+            <div class="overview-content">
+                <div id="overviewHead">
+                    <div id="overTopHead">
+                        <h2 id="overH2">Overview Page Schema</h2>            
+                        <h3>Toolbar Schema</h3>            
+                        <h3>Wire Schema</h3>
+                    </div>
+                    <div id="overBotHead">
+                        <button id="pageM">Page Master Area</button>
+                        <button>Section</button>
+                        <button>UIBB</button>
+                        <button>Up</button>
+                        <button>Down</button>
+                        <button id="configureButton">Configure UIBB</button>
+                        <button><i class="bi bi-person-badge"></i></button>
+                    </div>
+                </div>
+            </div>
+    
+            <table >
+                <thead>
+                    <tr>
+                        <th class="nada"></th>
+                        <th>Element</th>
+                        <th>Component</th>
+                        <th>Config ID</th>
+                        <th>Window Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="nada"></td>
+                        <td>Section: SECTION1</td>
+                        
+                    </tr>
+    
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMCS/UI...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTM/WDCC_FWO_GEN</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMS/UI...</td>
+                        <td>FPMFORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMS/UI...</td>
+                        <td>FPMTABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMS/UI...</td>
+                        <td>FPMTREE_UIBB</td>
+                        <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                        <td>TREE_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMS/UI...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TCM_CHARGES_TA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td class="nada"></td>
+                        <td>UIBB:$OTR:/SCMTMS/UI...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TCM_CHARGES_TA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+    
+        <section id="attributesBot">
+            <div id="Head">
+                <h2 id="att">Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</h2>
+                <button>Final Flags</button>
+    
+            </div>
+            <hr id="blueLine">
+            <div id="Bottom">
+    
+                <div id="left">
+                    <div class="inputs">
+                        <h3>Window Name:</h3>
+                        <input type="FORM_WINDOW" placeholder="FORM_WINDOW">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Config ID:</h3>
+                        <input type="/SCMTMS/WDCC_CMN_ADMINDATA" placeholder="/SCMTMS/WDCC_CMN_ADMINDATA">
+                    </div>
+    
+                    
+                    <div class="inputs">
+                        <h3>Instance ID:</h3>
+                        <input type="Instance ID">
+                    </div>
+    
+                    
+                    <div class="inputs">
+                        <h3>Column:</h3>
+                        <input type="Column">
+                    </div>
+    
+                    
+                    <div class="inputs">
+                        <h3>Row Number:</h3>
+                        <input type="Row Number">
+                    </div>
+    
+                    
+                    <div class="inputs">
+                        <h3>Sequence index:</h3>
+                        <input type="Hidden and Excluded from Event Loop" placeholder="Hidden and Excluded from Event Loop">
+                    </div>
+                    
+                    <div class="inputs">
+                        <h3>Default:</h3>
+                        <input type="Default">
+    
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Hidden Element:</h3>
+                        <input type="Visible" placeholder="Visible">
+                    </div>
+                </div>
+    
+                <div id="right">
+                    <div class="inputs">
+                        <h3>Title:</h3>
+                        <input type="$OTR:/SCMTMS/UI_CMN/ADM_INDO" placeholder="$OTR:/SCMTMS/UI_CMN/ADM_INDO">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Image:</h3>
+                        <input type="Imag">
+                    </div> 
+    
+                    <div class="inputs">
+                        <h3>Padding:</h3>
+                        <input type="Automatic (Default)">
+                    </div> 
+    
+                    <div class="inputs">
+                        <h3>Style:</h3>
+                        <input type="Style">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Explanation Text:</h3>
+                        <input type="Explanation Text">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Explanation Document:</h3>
+                        <input type="Explanation Document">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Default Edit Page:</h3>
+                        <input type="Default Edit Page">
+                    </div>
+    
+                    <div class="inputs">
+                        <h3>Default Details Page:</h3>
+                        <input type="Default Details Page">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+</body>
+</html>
