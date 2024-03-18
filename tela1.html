@@ -9,93 +9,137 @@
 </head>
 <body>
 
-<section>
+<section class="seção1">
 
-    <div class="container"> 
+    <div class="container1"> 
         <div class="sub-div">
             <img src="./imagens/Design sem nome.png" alt="Robô">
         </div>
 
             
         <div class="sub-div">
-            <h1>Olá, tudo bem?</h1>
+            <h1 class="fonteAzul">Olá, tudo bem?</h1>
             <br>
-                <h1>Como posso ajudar hoje?</h1>
+            <h1 class="fonteAzul">Como posso ajudar hoje?</h1>
+            
+            <div class="infoSeta">
+                <div class="info">
+                    <h2>Fale comigo!</h2>
+                </div>
+
+                <div class="seta">
+                    <h2> ⭢</h2>
+                </div>  
+            </div>
         </div>
 
         <div class="sub-div">
             <div class="infoSeta">
+                <div class="info">
                 <h2>QUERO COMPRAR MATERIAL</h2>
-                <button class="button">seta</button>
+                </div>
+
+                <div class="seta">
+                    <h2> ⭢</h2>
+                </div>
             </div>
 
             <div class="infoSeta">
-                <H2>QUERO COMPRAR SERVIÇO</H2>
-                <button  class="button">seta</button>
+                <div class="info">
+                   <H2>QUERO COMPRAR SERVIÇO</H2>
+                </div>
+
+                <div class="seta">
+                    <h2> ⭢</h2>
+                </div>
             </div>
             
             <div class="infoSeta">
+                <div class="info">
                 <h2>CONSULTAR FLUXO DE PROCESSOS</h2>
-                <button  class="button">seta</button>
+                </div>
+
+                <div class="seta">
+                    <h2> ⭢</h2>
+                </div>
             </div>
             
             <div class="infoSeta"> 
-                <h2>STATUS DAS MINHAS REQUISIÇÕES</h2>
-                <button class="button">seta</button>
+                <div class="info">
+                    <h2>STATUS DAS MINHAS REQUISIÇÕES</h2>
+                </div>
+                
+                <div class="seta">
+                    <h2> ⭢</h2>
+                </div>
             </div>
             
             <div class="infoSeta"> 
-                <h2>NÃO SEI AO CERTO, ME AJUDE</h2>
-                <button class="button">seta</button>
+                <div class="info">
+                     <h2>NÃO SEI AO CERTO, ME AJUDE</h2>
+                </div>
+
+                <DIV class="seta">
+                    <h2> ⭢</h2>
+                </DIV>
             </div>
         </div>
 
     </div>
 
-        <div>
-            <h2>Status de pedidos recentes</h2>
-            <h3>Ver todos pedidos</h3>
-                <!-- tabela -->
-            <table>
-                <thead>
-                <tr>
-                    <td>N° Req.</td>
-                    <td>Data</td>
-                    <td>Valor</td>
-                    <td>Status</td> 
+
+        <div class="container2">
+            <div class="statusEVer">
+                 <h2 class="status">Status de pedidos recentes</h2>
+                 <h3 class="verStats">Ver todos pedidos</h3>
+            </div> 
+               <!-- tabela -->
+            <div class="tabela">
+                <div class="cabeçaTabela">
+                    <h3>N° Req.</h3>
+                    <h3>Data</h3>
+                    <h3>Valor</h3>
+                    <h3>Status</h3> 
                     <!-- Em todos os status colocar cores -->
-                </tr>
-                </thead>
+                
+                </div>
 
-                <tr>
-                    <td># 125</td>
-                    <td>20/04/2020</td>
-                    <td>R$ 1.250,00</td>
-                    <td>Processado</td> 
-                </tr>
+                <div class="linhasTabela">
+                        <h3># 125</h3>
+                        <h3>20/04/2020</h3>
+                        <h3>R$ 1.250,00</h3>
+                        <h3 class="Processado">Processado</h3> 
 
-                <tr>
-                    <td># 125</td>
-                    <td>20/04/2020</td>
-                    <td>R$ 1.250,00</td>
-                    <td>Análise</td> 
-                </tr>
+                </div>
+                
+                <div class="linhasTabela">
 
-                <tr>
-                    <td># 125</td>
-                    <td>20/04/2020</td>
-                    <td>R$ 1.250,00</td>
-                    <td>-----</td> 
-                </tr>
+                        <h3># 125</h3>
+                        <h3>20/04/2020</h3>
+                        <h3>R$ 1.250,00</h3>
+                        <h3 id="Análise">Análise</h3> 
 
-                <tr>
-                    <td># 125</td>
-                    <td>20/04/2020</td>
-                    <td>R$ 1.250,00</td>
-                    <td>Processado</td> 
-                </tr>
+                </div>
 
-            </table>
+                <div class="linhasTabela">
+
+                        <h3># 125</h3>
+                        <h3>20/04/2020</h3>
+                        <h3>R$ 1.250,00</h3>
+                        <h3 id="noId">-----</h3> 
+
+                </div>
+
+                <div class="linhasTabela">
+
+                        <h3># 125</h3>
+                        <h3>20/04/2020</h3>
+                        <h3>R$ 1.250,00</h3>
+                        <h3 class="Processado">Processado</h3> 
+
+                </div>
+
+            </div>
 
 
         </div>
@@ -103,58 +147,68 @@
 
 </section>
 
-<section>
-    <div>
-        <h2>Baseado em suas últimas compras</h2>
-        <h3>Ver todas as recomendações</h3>
+<section class="seção2">
+    <div class="container3">
+        <div class="Compras">
+            <h2>Baseado em suas últimas compras</h2>
+            <h3>Ver todas as recomendações</h3>
+        </div>
+
+
+        <div class="ItensDeCompra">
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/chamex.jpg" alt="chamex" class="Imagens">
+                <h3>Papel Sulfite A4</h3>
+                <h3>R$ 34,43</h3>
         
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Papel Sulfite A4</h3>
-            <h3>R$ 34,43</h3>
-    
-        </div>
+            </div>
+            
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/transferir.jfif" alt="Sap" class="Imagens">
+                <h3>Solicitar Serviço</h3>
+                <h3>R$ 123,46</h3>
+
+                
+            </div>
+
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/grampeador-25-folhas-metalico-de-mesa-g104-preto-img-58467.jpg" alt="grampeador" class="Imagens">
+                <h3>Grampeador</h3>
+                <h3>R$ 10,00</h3>
+                
+            </div>        
         
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Solicitar Serviço</h3>
-            <h3>R$ 123,46/h3>
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/canetabic-cristal-azul.jpg" alt="caneta bic canetabic-cristal-azul" class="Imagens">
+                <h3>Caneta Bic Azul</h3>
+                <h3>R$ 1,00</h3>
+                
+            </div>
 
-            
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/a4cb1267b4a3f74c2a12881ba5e898f0.jpg" alt="lápis preto" class="Imagens">
+                <h3>Lápis preto</h3>
+                <h3>R$ 0,60</h3>
+                
+            </div>
+
+            <div class="Item">
+                <!-- <img src="" alt=""> -->
+                <img src="../Atividade-8---Replica-o-de-Interface-Comercial-2/imagens/caderno-brochura-capa-dura-universitario-folhas-numeradas-pepper-100-folhas_233536-1.jpg" alt="caderno-brochura-capa-dura-universitario-folhas-numeradas-pepper-100-folhas_233536-1" class="Imagens">
+                <h3>Caderno 100 folhas</h3>
+                <h3>R$ 10,40</h3>
+                
+            </div>
         </div>
-
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Grampeador</h3>
-            <h3>R$ 10,00</h3>
-            
-        </div>        
-       
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Caneta Bic Azul</h3>
-            <h3>R$ 1,00</h3>
-            
-        </div>
-
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Lápis preto</h3>
-            <h3>R$ 0,60</h3>
-            
-        </div>
-
-        <div>
-            <!-- <img src="" alt=""> -->
-            <h3>Caderno 100 folhas</h3>
-            <h3>R$ 10,40</h3>
-            
-        </div>
-
     
     </div>
     
-    <div>
+    <div class="container4">
         <h2>Mensagens e alertas</h2>
         <h3>Ver todas mensagens</h3>
         <!-- <button></button> -->
@@ -195,9 +249,9 @@
     
 </section>
 
-<section>
+<section class="seção3">
 
-    <div>
+    <div class="container5">
         <div>
 
         </div>
@@ -215,7 +269,7 @@
     </div>
 
 
-    <div>
+    <div class="container6">
         <h2>Últimas transações e pedidos</h2>
         <h3>Ver todas mensagens</h3>
         <!-- <button></button> -->

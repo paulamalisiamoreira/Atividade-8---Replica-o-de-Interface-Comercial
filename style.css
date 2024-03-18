@@ -1,23 +1,24 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-}
-/* .Primeira{
-    margin: 2%;
-    width: 65%;
-    height: 30%;
-    background-color: aquamarine;
-    display: ;
-} */
+@font-face {
+    font-family: 'Inter';
+    src: url('../Atividade-8---Replica-o-de-Interface-Comercial-2/fonte/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 
 /* está errado:( */
-.container {
+.container1 {
     display: flex; /* Ativa o layout flexível */
     border-radius: 50px;
     box-sizing: border-box; /* Garante que o padding seja incluído na largura */
     background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
     width: 60%;
+    font-family: 'inter';
+    border-radius: 15px;
+    align-items: center;
+    color: #163599;
 }
 
 .sub-div {
@@ -26,16 +27,201 @@
 
 .infoSeta{
     display: flex;
-    margin: 5px;
 }
 
-.button{
-    margin: 5px;
+.seta{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    color: #163599;
+}
 
+.info{
+    display: flex;
+    margin: 5px;
+    color: white;
+    background-color: #163599;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 10px;
 }
 
 img{
-    width: 200px;
+    width: 300px;
     height: auto;
 }
+
+.container2 {
+    display: flex; /* Ativa o layout flexível */
+    border-radius: 15px;
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+    background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+    width: 30%;
+    font-family: 'inter';
+    color:#163599;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.statusEVer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 55px;
+}
+
+.linhasTabela{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding: 5px;
+    margin-left: 5px;
+    margin: 5px;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.seção1{
+    margin: 50px;
+    display: flex;
+    gap: 45px;
+}
+
+
+.cabeçaTabela {
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    gap: 35px;
+}
+
+.status {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.verStats {
+    font-size: 16px;
+}
+
+.Processado{
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    width: 200px;
+}
+
+#Análise{
+    background-color: #d09306;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    width: 200px;
+}
+
+#noId{
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    width: 200px;
+
+}
+
+
+.seção2{
+    margin: 50px;
+    display: flex;
+    gap: 45px;
+
+}
+
+.container3{
+        border-radius: 15px;
+        box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+        background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+        width: 60%;
+        font-family: 'inter';
+        border-radius: 15px;
+        align-items: center;
+        color: #163599;
+    }
+
+.Compras{
+    display: flex;
+}
+
+.ItensDeCompra{
+         display: flex; /* Ativa o layout flexível */
+}
+
+.Item{ 
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    margin: 5px;
+    gap: 15px;
+    font-size: 14px;
+    text-align:center;
+}
+
+.Imagens{
+    width: 150px;
+}
+
+.container4{
+    border-radius: 15px;
+    display: flex; /* Ativa o layout flexível */
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+    background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+    width: 30%;
+    font-family: 'inter';
+    border-radius: 15px;
+    align-items: center;
+    color: #163599;
+
+}
+
+.seção3{
+    margin: 50px;
+    display: flex;
+    gap: 45px;
+
+}
+
+.container5{
+    border-radius: 15px;
+    display: flex; /* Ativa o layout flexível */
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+    background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+    width: 60%;
+    font-family: 'inter';
+    border-radius: 15px;
+    align-items: center;
+    color: #163599;
+}
+
+.container6{
+border-radius: 15px;
+display: flex; /* Ativa o layout flexível */
+box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+width: 30%;
+font-family: 'inter';
+border-radius: 15px;
+align-items: center;
+color: #163599;
+
+}
+
+
+
+
+
 
