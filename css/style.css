@@ -392,6 +392,7 @@ img{
 }
 
 
+
 .seção2{
     margin: 50px;
     display: flex;
@@ -410,12 +411,51 @@ img{
         color: #163599;
     }
 
+.descricaoItem{
+    align-items: end;
+    flex: 1;
+}
+
 .Compras{
     display: flex;
 }
 
+.divsLinhasTabela{
+    align-items: left;
+    
+}
+
+.nomeTabela{
+    /* width: 30%; */
+    align-items: left;
+} 
+
+.descricaoTabela{
+    width: 60%;
+    align-items: left;
+
+}
+
+.datinhaTabela{
+    align-items: center;
+    width: 10%;
+
+}
+
+.nomeEDesc{
+    flex-direction: column;
+    width: 80%;
+    align-items: left;
+    justify-content: left;
+    
+}
+
+
+
+
 .ItensDeCompra{
          display: flex; /* Ativa o layout flexível */
+        
 }
 
 .Item{ 
@@ -427,15 +467,25 @@ img{
     gap: 15px;
     font-size: 14px;
     text-align:center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    max-width: 150px;
+    /* max-height: 50px; */
+    align-items: center;
 }
 
 .Imagens{
-    width: 150px;
+    /* width: 150px; */
+    max-width: 100px;
+    max-height: 100px;
+    /* max-width: fit-content; */
+    /* max-height: fit-content; */
+    flex: 1;
 }
 
 .container4{
     border-radius: 15px;
-    display: flex; /* Ativa o layout flexível */
     box-sizing: border-box; /* Garante que o padding seja incluído na largura */
     background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
     width: 30%;
@@ -444,6 +494,14 @@ img{
     align-items: center;
     color: #163599;
 
+}
+
+
+.MensEVer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 55px;
 }
 
 .seção3{
