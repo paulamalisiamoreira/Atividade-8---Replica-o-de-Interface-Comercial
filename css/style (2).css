@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 header {
@@ -288,10 +289,16 @@ td:nth-child(4) {
 }
 
 .seta{
+    font-size: 1rem;
+    width: 36px;
+    height: 36px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 50px;
     color: #163599;
+    transform: translateX(-30%);
 }
 
 .info{
@@ -401,15 +408,21 @@ img{
 }
 
 .container3{
-        border-radius: 15px;
-        box-sizing: border-box; /* Garante que o padding seja incluído na largura */
-        background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
-        width: 60%;
-        font-family: 'inter';
-        border-radius: 15px;
-        align-items: center;
-        color: #163599;
-    }
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+    background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
+    width: 60%;
+    font-family: 'inter';
+    border-radius: 15px;
+    align-items: center;
+    color: #163599;
+}
+
+.container3 .ItensDeCompra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    
 
 .descricaoItem{
     align-items: end;
@@ -513,7 +526,6 @@ img{
 
 .container5{
     border-radius: 15px;
-    display: flex; /* Ativa o layout flexível */
     box-sizing: border-box; /* Garante que o padding seja incluído na largura */
     background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
     width: 60%;
@@ -523,15 +535,107 @@ img{
     color: #163599;
 }
 
+.container5 .bars {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.container5 .bar{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px;
+}
+
+.container5 .bar .progress{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress .circle{
+    background-color: #0F0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.progress .circle2{
+    background-color: rgb(253, 249, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.progress .circle3{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    border: 5px solid blue;
+}
+
+.progress::before {
+    content: '';
+    width: 80%;
+    background: linear-gradient(
+        to right,
+        green 50%,
+        blue 50%
+    );
+    
+    height: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+}
+
 .container6{
 border-radius: 15px;
-display: flex; /* Ativa o layout flexível */
 box-sizing: border-box; /* Garante que o padding seja incluído na largura */
 background-color: #d3eaf2; /* Cor de fundo apenas para visualização */
 width: 30%;
 font-family: 'inter';
 border-radius: 15px;
-align-items: center;
 color: #163599;
 
+}
+
+.container6 .content {
+    display: flex; /* Ativa o layout flexível */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 12px;
 }
