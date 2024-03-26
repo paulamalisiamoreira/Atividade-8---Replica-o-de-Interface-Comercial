@@ -336,7 +336,7 @@ img{
     gap: 55px;
 }
 
-.linhasTabela{
+.linhasTabela1{
     background-color: white;
     border-radius: 5px;
     padding-left: 25px;
@@ -347,10 +347,40 @@ img{
     gap: 15px;
     font-size: 14px;
     text-align: center;
+
+}
+
+.linhasTabela2{
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.nomeEDatinha{
+    gap: 250px;
+    display: flex;
+}
+
+.nomeEDatinha2{
+    gap: 257px;
+    display: flex;
+}
+
+.imagemNomesTabela{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
+
+.conteudoLinhaTabelaSemImagem{
+    margin: 10px ;
 }
 
 .seção1{
     margin: 50px;
+    margin-top: 10px;
     display: flex;
     gap: 45px;
 }
@@ -421,6 +451,7 @@ img{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
     
 
@@ -506,7 +537,8 @@ img{
     border-radius: 15px;
     align-items: center;
     color: #163599;
-
+    overflow: hidden;
+    max-height: 300px;
 }
 
 
@@ -519,6 +551,7 @@ img{
 
 .seção3{
     margin: 50px;
+    margin-bottom: 0px;
     display: flex;
     gap: 45px;
 
@@ -561,6 +594,12 @@ img{
 
 .progress {
     position: relative;
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .progress .circle{
@@ -615,6 +654,14 @@ img{
     z-index: 2;
 }
 
+.sla::before {
+    background: linear-gradient(
+        to right,
+        green 25%,
+        blue 25%
+    );
+}
+
 .container6{
 border-radius: 15px;
 box-sizing: border-box; /* Garante que o padding seja incluído na largura */
@@ -639,3 +686,47 @@ color: #163599;
     width: 100%;
     padding: 5px 12px;
 }
+
+.Imagens0{
+     width: 150px; 
+    max-width: 100px;
+    height: 150px;
+    max-width: fit-content; 
+    max-height: fit-content; 
+    flex: 1;
+}
+
+.Item0{ 
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    margin: 5px;
+    gap: 64px;
+    font-size: 14px;
+    text-align:center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    max-width: 150px;
+    /* max-height: 50px; */
+    align-items: center;
+
+}
+
+#oi {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+span {
+    font-size: 11px;
+    color: #000;
+}
+
+.nome {
+    font-weight: bold;
+    color: black;
+}
+
